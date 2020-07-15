@@ -2,7 +2,7 @@
 
 Update .0
 
-1- Craftbot
+1 - Craftbot
 	* 5 Scrap metal = 1 totebot head
 	* Small/big ramp = 5 metal1
 	* 2 Sunshake = 2 milk + 1 pineapple + 1 blueberry
