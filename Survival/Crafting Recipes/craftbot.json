@@ -25,17 +25,17 @@
 		"quantity": 1,
 		"craftTime": 32,
 		"ingredientList": [
-			{
+			{	// Metal1
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"  // Metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			},
-			{
+			{	// Glass
 				"quantity": 5,
-				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f"  // Glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f"
 			},
-			{
+			{	// Component Kit
 				"quantity": 3,
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"  // Component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			}
 		]
 	},
@@ -44,17 +44,17 @@
 		"quantity": 1,
 		"craftTime": 32,
 		"ingredientList": [
-			{
+			{	// Metal2
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" // Metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			},
-			{
+			{	// Circuit Board
 				"quantity": 5,
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			},
-			{
+			{	// Component Kit
 				"quantity": 5,
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf" // Component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			}
 		]
 	},
