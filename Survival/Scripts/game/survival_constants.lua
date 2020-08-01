@@ -41,7 +41,7 @@ HIDEOUT_DEV_SPAWN_POINT = sm.vec3.new( -1376, -2912, 0.7 )
 
 SURVIVAL_DEV_SPAWN_POINT = HIDEOUT_DEV_SPAWN_POINT
 
-DAYCYCLE_TIME = 720.0 -- seconds (12 minutes)
+DAYCYCLE_TIME = 1440.0 -- seconds (24 minutes)
 DAYCYCLE_TIME_TICKS = DAYCYCLE_TIME * 40
 
 function DaysInTicks( days ) return days * DAYCYCLE_TIME_TICKS end
