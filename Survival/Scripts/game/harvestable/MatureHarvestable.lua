@@ -54,7 +54,7 @@ function MatureHarvestable.sv_n_harvest( self, params, player )
 	if not self.harvested and sm.exists( self.harvestable ) then
 		local container = player:getInventory()
 		if sm.container.beginTransaction() then
-			sm.container.collect( container, sm.uuid.new( self.data.harvest ), randomStackAmountAvg2(), true )
+			sm.container.collect( container, sm.uuid.new( self.data.harvest ), randomStackAmount(3,5,10), true )
 			sm.container.collect( container, sm.uuid.new( self.data.seed ), randomStackAmountAvg2(), true )
 			if sm.container.endTransaction() then
 				sm.effect.playEffect( "Plants - Picked", self.harvestable:getPosition() )
