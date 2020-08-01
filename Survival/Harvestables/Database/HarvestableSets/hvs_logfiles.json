@@ -1,0 +1,28 @@
+{
+    "harvestableList": [
+        {
+			"name": "hvs_logfile_picturelog",
+            "uuid": "3d5d1c0b-08c0-4ee6-9445-20ec983ca936",
+            "color": "",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/logfiles/hvs_logfiles_picturelog.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/logfiles/",    
+
+		    "size": 1,
+			"type": "logfiles",
+			"material": "Wood",
+			"mass": 15000
+		},
+		{
+			"name": "hvs_logfile_audiolog",
+            "uuid": "3398c413-caec-454b-86e1-c7176b6bc450",
+            "color": "",
+            "renderable": "$SURVIVAL_DATA/Harvestables/Renderable/logfiles/hvs_logfiles_audiolog.rend",
+            "col": "$SURVIVAL_DATA/Harvestables/Collision/logfiles/",    
+
+		    "size": 1,
+			"type": "logfiles",
+			"material": "Wood",
+			"mass": 15000
+		}
+    ]
+}
