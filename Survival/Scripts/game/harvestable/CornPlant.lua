@@ -33,9 +33,8 @@ end
 
 function CornPlant.server_onCollision( self, other, collisionPosition, selfPointVelocity, otherPointVelocity, collisionNormal ) 
 	if type( other ) == "Shape" and sm.exists( other ) then 
-		if otherPointVelocity:length() > 10 then 
+		if otherPointVelocity:length() > 6 then 
 			self:sv_onHit() 
 		end 
 	end 
 end
-
