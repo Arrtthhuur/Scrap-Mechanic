@@ -126,7 +126,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "6a43fff2-8c6d-4460-9f44-e5483b5267dd", //blueberry part
-					"amount": 5,
+					"amount": 1,
 					"seed": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2" //blueberry seed
 				}
 			}
@@ -172,7 +172,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "f5098301-1693-457b-8efc-83b3504105ac", //orange part
-					"amount": 5,
+					"amount": 1,
 					"seed": "bee966b0-b5e5-41da-b992-5d363ab85ae4" //orange seed
 				}
 			}
@@ -218,7 +218,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "4ec64cda-1a5b-4465-88b4-5ea452c4a556", //pineapple part
-					"amount": 5,
+					"amount": 1,
 					"seed": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a" //pineapple seed
 				}
 			}
@@ -264,7 +264,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "47ece75a-bfca-4e8a-b618-4f609fcea0da", //carrot part
-					"amount": 5,
+					"amount": 1,
 					"seed": "9c82a525-8a8b-4483-9595-505aaa042486" //carrot seed
 				}
 			}
@@ -310,7 +310,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "4ce00048-f735-4fab-b978-5f405e60f48f", //redbeet part
-					"amount": 5,
+					"amount": 1,
 					"seed": "64051718-a3f1-422b-bda3-277efa0c4545" //redbeet seed
 				}
 			}
@@ -402,7 +402,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f", //broccoli part
-					"amount": 5,
+					"amount": 1,
 					"seed": "1c6756ca-3a60-4dcb-a5d1-353edf818308" //broccoli seed
 				}
 			}
@@ -448,7 +448,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", //potato part
-					"amount": 5,
+					"amount": 1,
 					"seed": "eb1ef696-5c05-4662-9e47-fe1e0875ff84" //potato seed
 				}
 			}
@@ -494,7 +494,7 @@
 				"class": "MatureHarvestable",
 				"data": {
 					"harvest": "3440440b-d362-4473-aa03-b7c41e1fe7ad", //cotton part
-					"amount": 5,
+					"amount": 1,
 					"seed": "93c27ab2-4930-4654-ba1c-bcfe35e966f6" //cotton seed
 				}
 			}
