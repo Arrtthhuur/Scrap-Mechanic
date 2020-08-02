@@ -230,7 +230,7 @@ local loot_totebot_green = {
 }
 
 local loot_haybot = {
-	slots = function() return randomStackAmount( 0, 0.5, 1 ) end,
+	slots = function() return randomStackAmount( 2, 3, 5 ) end,
 	randomLoot = {
 		{ uuid = obj_consumable_component,		chance = 2 },
 		{ uuid = obj_resource_circuitboard,		chance = 1 },
