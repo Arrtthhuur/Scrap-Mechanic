@@ -14,9 +14,9 @@ end
 function SlimyClam.sv_onHit( self )
 	if not self.harvested and sm.exists( self.harvestable ) then
 		local lootList = {}
-		local count = randomStackAmountAvg2()
+		local count = randomStackAmount( 2, 3, 5 )
 		for i = 1, count do
-			lootList[i] = { uuid = obj_resources_slimyclam, quantity = 5 }
+			lootList[i] = { uuid = obj_resources_slimyclam, quantity = 2 }
 		end
 		SpawnLoot( self.harvestable, lootList, self.harvestable.worldPosition + sm.vec3.new( 0, 0, 0.25 ), math.pi / 36 )
 
