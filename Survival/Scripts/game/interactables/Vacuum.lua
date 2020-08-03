@@ -452,7 +452,7 @@ function Vacuum.server_onFixedUpdate( self )
 						local data = result:getData()
 						if data then
 							local partUuid = data["harvest"]
-							local amount = data["amount"]
+							local amount = randomStackAmount(3,5,10)
 							if partUuid and amount then
 								partUuid = sm.uuid.new( partUuid )
 								local container = FindContainerToCollectTo( self.sv.connectedContainers, partUuid, amount )
