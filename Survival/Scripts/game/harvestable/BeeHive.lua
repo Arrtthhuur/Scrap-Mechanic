@@ -18,9 +18,9 @@ function BeeHive.sv_onHit( self )
 	if not self.destroyed and sm.exists( self.harvestable ) then
 
 		local lootList = {}
-		local slots = math.random( 6, 8 )
+		local slots = math.random( 4, 8 )
 		for i = 1, slots do
-			lootList[i] = { uuid = obj_resource_beewax, quantity = 1 }
+			lootList[i] = { uuid = obj_resource_beewax, quantity = 5 }
 		end
 		SpawnLoot( self.harvestable, lootList )
 		
