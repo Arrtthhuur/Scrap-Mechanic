@@ -44,7 +44,7 @@ end
 
 function HarvestCore.cl_init( self ) 
 	self.client_refining = false
-	self.client_refineTime = 6.0
+	self.client_refineTime = 4.0
 	self.client_refineElapsed = 0.0
 	
 	self.client_effect = sm.effect.createEffect( "Harvestable - Marker", self.interactable )
