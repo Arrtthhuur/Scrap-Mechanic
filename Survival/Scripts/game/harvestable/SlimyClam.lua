@@ -16,7 +16,7 @@ function SlimyClam.sv_onHit( self )
 		local lootList = {}
 		local count = randomStackAmount( 2, 3, 5 )
 		for i = 1, count do
-			lootList[i] = { uuid = obj_resources_slimyclam, quantity = 2 }
+			lootList[i] = { uuid = obj_resources_slimyclam, quantity = 5 }
 		end
 		SpawnLoot( self.harvestable, lootList, self.harvestable.worldPosition + sm.vec3.new( 0, 0, 0.25 ), math.pi / 36 )
 
@@ -37,4 +37,12 @@ end
 function SlimyClam.client_onDestroy( self )
 	self.cl.bubbleEffect:stop()
 	self.cl.bubbleEffect:destroy()
+end
+
+function SlimyClam.server_onCollision( self, other, collisionPosition, selfPointVelocity, otherPointVelocity, collisionNormal ) 
+	if type( other ) == "Shape" and sm.exists( other ) then 
+		if otherPointVelocity:length() > 2 then 
+			self:sv_onHit() 
+		end 
+	end 
 end
