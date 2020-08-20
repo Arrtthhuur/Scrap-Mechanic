@@ -1,22 +1,22 @@
 // this file is generated
 [
-	{
+	{	// Soil bag
 		"itemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
 		"quantity": 5,
 		"craftTime": 0,
 		"ingredientList": [
-			{
+			{	// Carrot Crate
 				"quantity": 1,
 				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
 			}
 		]
 	},
-	{
+	{	// Fertilizer
 		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
 		"quantity": 10,
 		"craftTime": 0,
 		"ingredientList": [
-			{
+			{	// Redbeet
 				"quantity": 1,
 				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
 			}
@@ -27,7 +27,7 @@
 		"quantity": 5,
 		"craftTime": 0,
 		"ingredientList": [
-			{
+			{	// Carrot
 				"quantity": 3,
 				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
 			}
@@ -103,22 +103,22 @@
 			}
 		]
 	},
-	{
+	{	// Potato Ammo Container
 		"itemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
 		"quantity": 1,
 		"craftTime": 32,
 		"ingredientList": [
-			{
+			{	// 
 				"quantity": 1,
 				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
 			},
-			{
+			{	//
 				"quantity": 1,
 				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
 			}
 		]
 	},
-	{
+	{	//
 		"itemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
 		"quantity": 1,
 		"craftTime": 0,
@@ -137,7 +137,7 @@
 			}
 		]
 	},
-	{
+	{	//
 		"itemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
 		"quantity": 1,
 		"craftTime": 0,
@@ -167,32 +167,47 @@
 			}
 		]
 	},
-	{
+	{	// Garment Box Common
 		"itemId": "63695efd-0862-49f2-ace6-4d1758147fae",
 		"quantity": 1,
 		"craftTime": 0,
 		"ingredientList": [
-			{
+			{	// 
 				"quantity": 1,
 				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
 			},
-			{
+			{	// Farmer
 				"quantity": 1,
 				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
 			}
 		]
 	},
-	{
+	{	// Garment Box Rare
 		"itemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
 		"quantity": 1,
 		"craftTime": 0,
 		"ingredientList": [
-			{
+			{	//
 				"quantity": 2,
 				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
 			},
-			{
+			{	// Farmer
 				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{	// Garment Box Epic
+		"itemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+			{	//
+				"quantity": 3,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			},
+			{	// Farmer
+				"quantity": 3,
 				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
 			}
 		]
@@ -201,22 +216,7 @@
 	//----------------------------------------------------------------
 	// extra
 	//----------------------------------------------------------------
-	{	// Gas
-		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
-		"quantity": 20,
-		"craftTime": 0,
-		"ingredientList": [
-			{	// Redbeet Crate
-				"quantity": 2,
-				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
-			},
-			{	// Blueberry Crate
-				"quantity": 1,
-				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
-			}
-		]
-	},
-		{ // Gas
+	{ 	// Gas
 		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
 		"quantity": 20,
 		"craftTime": 0,
@@ -228,7 +228,7 @@
 			
 		]
 	},
-	{	//Batteries
+	{	// Batteries
 		"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af",
 		"quantity": 20,
 		"craftTime": 0,
@@ -278,7 +278,7 @@
 			
 		]
 	},
-	{	//Circuit
+	{	// Circuit
 		"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
 		"quantity": 20,
 		"craftTime": 0,
