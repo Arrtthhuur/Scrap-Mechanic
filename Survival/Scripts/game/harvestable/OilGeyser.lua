@@ -26,7 +26,7 @@ end
 function OilGeyser.sv_n_harvest( self, params, player )
 	if not self.harvested and sm.exists( self.harvestable ) then
 		local container = player:getInventory()
-		local quantity = randomStackAmount( 2, 4, 8 )
+		local quantity = randomStackAmount( 5, 8, 10 )
 		if sm.container.beginTransaction() then
 			sm.container.collect( container, obj_resource_crudeoil, quantity )
 			if sm.container.endTransaction() then
