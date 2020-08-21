@@ -80,7 +80,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 20,
+				"quantity": 10,
 				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" // Scrap Wood
 			}
 		]
@@ -4816,29 +4816,6 @@
 			}
 		]
 	},
-	{ // Flourescent Lamp
-		"itemId": "7b2c96af-a4a1-420e-9370-ea5b58f23a7e",
-		"quantity": 1,
-		"craftTime": 22,
-		"ingredientList": [
-			{
-				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" // Metal1
-			},
-			{
-				"quantity": 1,
-				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" // Glass
-			},
-			{
-				"quantity": 2,
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
-			},
-			{
-				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
-			}
-		]
-	},
 	{ // Area Light
 		"itemId": "5e3dff9b-2450-44ae-ad46-d2f6b5148cbf",
 		"quantity": 1,
@@ -5028,29 +5005,6 @@
 			{
 				"quantity": 5,
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" // Metal1
-			}
-		]
-	},
-	{ // Spaceship Ceiling Light
-		"itemId": "47062936-5d28-43ec-81b5-8fdb619e97e4",
-		"quantity": 1,
-		"craftTime": 22,
-		"ingredientList": [
-			{
-				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" // Metal1
-			},
-			{
-				"quantity": 1,
-				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" // Glass
-			},
-			{
-				"quantity": 2,
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
-			},
-			{
-				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
