@@ -7,7 +7,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			},
 			{
 				"quantity": 2,
@@ -53,9 +53,9 @@
 			}
 		]
 	},
-	{ // Cardboard Block
+	{ // 10 Cardboard Block
 		"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
-		"quantity": 20,
+		"quantity": 10,
 		"craftTime": 2,
 		"ingredientList": [
 			{
@@ -64,25 +64,25 @@
 			}
 		]
 	},
-	{
+	{ // 10 Wood1
 		"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15,
+				"quantity": 20,
 				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" // Scrap Wood
 			}
 		]
 	},
-	{
+	{ // 10 Wood2
 		"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 1,
@@ -90,34 +90,34 @@
 			}
 		]
 	},
-	{
+	{ // 10 Wood3
 		"itemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
+				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398" // Wood2
 			},
 			{
 				"quantity": 1,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" // Metal3
 			}
 		]
 	},
-	{
-		"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" // Metal1,
+	{ // 10 Metal
+		"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			}
 		]
 	},
-	{
-		"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" // Metal2,
+	{ // 10 Metal2
+		"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
@@ -127,15 +127,15 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4" // Ember
 			},
 			{
 				"quantity": 2,
-				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28" // Water
 			}
 		]
 	},
-	{
+	{ // 10 Metal3
 		"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46",
 		"quantity": 10,
 		"craftTime": 7,
@@ -146,41 +146,41 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4" // Ember
 			},
 			{
 				"quantity": 4,
-				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28" // Water
 			}
 		]
 	},
-	{
+	{ // 10 Concrete1
 		"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"quantity": 10,
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			},
 			{
-				"quantity": 5,
-				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+				"quantity": 4,
+				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28" // Water
 			},
 			{
-				"quantity": 5,
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+				"quantity": 2,
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" // Chemical // Chemical
 			}
 		]
 	},
-	{
+	{ // 10 Concrete2
 		"itemId": "ff234e42-5da4-43cc-8893-940547c97882",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
+				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" // Concrete1
 			},
 			{
 				"quantity": 2,
@@ -188,7 +188,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Concrete3
 		"itemId": "e281599c-2343-4c86-886e-b2c1444e8810",
 		"quantity": 10,
 		"craftTime": 7,
@@ -199,52 +199,52 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" // Metal3
 			}
 		]
 	},
-	{
+	{ // 10 Sand
 		"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
-		"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" // Glass,
+	{ // 10 Glass
+		"itemId": "5f41af56-df4c-4837-9b3c-10781335757f",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b" // Sand
 			},
 			{
 				"quantity": 1,
-				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4" // Ember
 			}
 		]
 	},
-	{
+	{ // 10 Glass Tile
 		"itemId": "749f69e0-56c9-488c-adf6-66c58531818f",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b" // Sand
 			},
 			{
 				"quantity": 1,
-				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4" // Ember
 			}
 		]
 	},
-	{
+	{ // 10 Armored Glass
 		"itemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
 		"quantity": 10,
 		"craftTime": 7,
@@ -255,15 +255,15 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b"
+				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b" // Wireframe1
 			},
 			{
 				"quantity": 1,
-				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4" // Ember
 			}
 		]
 	},
-	{
+	{ // 10 Diamond Plate
 		"itemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4",
 		"quantity": 10,
 		"craftTime": 7,
@@ -274,7 +274,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Path Light
 		"itemId": "073f92af-f37e-4aff-96b3-d66284d5081c",
 		"quantity": 10,
 		"craftTime": 7,
@@ -289,7 +289,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Extruded Metal
 		"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
 		"quantity": 10,
 		"craftTime": 7,
@@ -300,7 +300,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Net1
 		"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
 		"quantity": 10,
 		"craftTime": 7,
@@ -311,7 +311,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Punched Steel2
 		"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a",
 		"quantity": 10,
 		"craftTime": 7,
@@ -322,7 +322,7 @@
 			}
 		]
 	},
-	{
+	{ // 10 Solid Net3
 		"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
 		"quantity": 10,
 		"craftTime": 7,
@@ -333,8 +333,8 @@
 			}
 		]
 	},
-	{
-		"itemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
+	{ // 10 Spaceship
+		"itemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6", // Spaceship
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
@@ -344,134 +344,134 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // 10 Brick
 		"itemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
+	{ // 10 Tile
 		"itemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // 10 Restroom
 		"itemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			},
 			{
 				"quantity": 1,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			}
 		]
 	},
-	{
+	{ // 10 Barrier
 		"itemId": "09ca2713-28ee-4119-9622-e85490034758",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // 10 Carpet
 		"itemId": "febce8a6-6c05-4e5d-803b-dfa930286944",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // 10 Bubble Plastic
 		"itemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
 		"quantity": 10,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			}
 		]
 	},
-	{
+	{ // Bearing
 		"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			}
 		]
 	},
-	{
+	{ // Switch
 		"itemId": "7cf717d7-d167-4f2d-a6e7-6b2c70aa3986",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			},
 			{
-				"quantity": 1,
+				"quantity": 2,
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
 			}
 		]
 	},
-	{
+	{ // Button
 		"itemId": "1e8d93a4-506b-470d-9ada-9c0a321e2db5",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			},
 			{
-				"quantity": 1,
+				"quantity": 2,
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
 			}
 		]
 	},
-	{
+	{ // Sensor1
 		"itemId": "1d4793af-cb66-4628-804a-9d7404712643",
 		"quantity": 1,
 		"craftTime": 27,
@@ -490,11 +490,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Sport Suspension1
 		"itemId": "67da25c9-3825-41f6-9724-4546a11cb2a5",
 		"quantity": 1,
 		"craftTime": 27,
@@ -505,11 +505,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			}
 		]
 	},
-	{
+	{ // Off-Road Suspension1
 		"itemId": "f3cfef9d-faef-4be8-9283-476eb99614d7",
 		"quantity": 1,
 		"craftTime": 27,
@@ -520,11 +520,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			}
 		]
 	},
-	{
+	{ // Piston1
 		"itemId": "8c741785-5eae-4c48-9f99-d62bf522a83f",
 		"quantity": 1,
 		"craftTime": 37,
@@ -535,7 +535,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			},
 			{
 				"quantity": 2,
@@ -547,7 +547,7 @@
 			}
 		]
 	},
-	{
+	{ // Gas Engine1
 		"itemId": "1bfccc0a-828f-475c-882c-87d5a96054c9",
 		"quantity": 1,
 		"craftTime": 87,
@@ -558,7 +558,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			},
 			{
 				"quantity": 5,
@@ -570,7 +570,7 @@
 			}
 		]
 	},
-	{
+	{ // Electric Engine1
 		"itemId": "5e5d231e-405e-4f45-9bd0-b3557dbb42eb",
 		"quantity": 1,
 		"craftTime": 87,
@@ -581,7 +581,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
+				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af" // Battery
 			},
 			{
 				"quantity": 10,
@@ -593,14 +593,14 @@
 			}
 		]
 	},
-	{
+	{ // Driver Seat1
 		"itemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0",
 		"quantity": 1,
 		"craftTime": 57,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
 				"quantity": 5,
@@ -616,14 +616,14 @@
 			}
 		]
 	},
-	{
+	{ // Seat1
 		"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d",
 		"quantity": 1,
 		"craftTime": 37,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
 				"quantity": 5,
@@ -635,14 +635,14 @@
 			}
 		]
 	},
-	{
+	{ // Driver's Saddle1
 		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11",
 		"quantity": 1,
 		"craftTime": 57,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
 				"quantity": 5,
@@ -658,14 +658,14 @@
 			}
 		]
 	},
-	{
+	{ // Saddle1
 		"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d",
 		"quantity": 1,
 		"craftTime": 37,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
 				"quantity": 5,
@@ -677,7 +677,7 @@
 			}
 		]
 	},
-	{
+	{ // Toilet
 		"itemId": "ca003562-fde7-463c-969e-f8334ae54387",
 		"quantity": 1,
 		"craftTime": 2,
@@ -688,18 +688,18 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			}
 		]
 	},
-	{
+	{ // Thruster1
 		"itemId": "df8528ed-15ad-4a39-a33a-698880684001",
 		"quantity": 1,
 		"craftTime": 117,
 		"ingredientList": [
 			{
 				"quantity": 40,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" // Metal3
 			},
 			{
 				"quantity": 10,
@@ -707,7 +707,7 @@
 			}
 		]
 	},
-	{
+	{ // Controller1
 		"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e",
 		"quantity": 1,
 		"craftTime": 37,
@@ -726,11 +726,11 @@
 			},
 			{
 				"quantity": 3,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Logic Gate
 		"itemId": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f",
 		"quantity": 1,
 		"craftTime": 17,
@@ -745,11 +745,11 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Timer
 		"itemId": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f",
 		"quantity": 1,
 		"craftTime": 42,
@@ -764,11 +764,11 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Radio
 		"itemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0",
 		"quantity": 1,
 		"craftTime": 42,
@@ -779,7 +779,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
+				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af" // Battery
 			},
 			{
 				"quantity": 4,
@@ -787,11 +787,11 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Horn
 		"itemId": "818f4e15-ff51-4fed-b874-723a25d62e1c",
 		"quantity": 1,
 		"craftTime": 42,
@@ -806,11 +806,11 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Headlight
 		"itemId": "ed27f5e2-cac5-4a32-a5d9-49f116acc6af",
 		"quantity": 1,
 		"craftTime": 22,
@@ -829,49 +829,30 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
-		"itemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851",
-		"quantity": 1,
-		"craftTime": 42,
-		"ingredientList": [
-			{
-				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" // Metal2
-			},
-			{
-				"quantity": 1,
-				"itemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0"
-			},
-			{
-				"quantity": 10,
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
-			}
-		]
-	},
-	{
+	{ // Respawn Bed
 		"itemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7",
 		"quantity": 1,
 		"craftTime": 57,
 		"ingredientList": [
 			{
 				"quantity": 50,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 20,
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad" // Cotton
 			},
 			{
-				"quantity": 10,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"quantity": 5,
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // Fridge
 		"itemId": "f08d772f-9851-400f-a014-d847900458a7",
 		"quantity": 1,
 		"craftTime": 57,
@@ -882,7 +863,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" // Chemical
 			},
 			{
 				"quantity": 1,
@@ -890,11 +871,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Chest
 		"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
 		"quantity": 1,
 		"craftTime": 57,
@@ -905,11 +886,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Large Chest
 		"itemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
 		"quantity": 1,
 		"craftTime": 87,
@@ -928,11 +909,11 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Vacuum Pump
 		"itemId": "97f449b6-c948-448b-b8b3-4448e3f6b956",
 		"quantity": 1,
 		"craftTime": 87,
@@ -943,7 +924,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			},
 			{
 				"quantity": 5,
@@ -955,7 +936,7 @@
 			}
 		]
 	},
-	{
+	{ // Vacuum Pipe
 		"itemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
 		"quantity": 1,
 		"craftTime": 12,
@@ -974,7 +955,7 @@
 			}
 		]
 	},
-	{
+	{ // Vacuum Pipe Corner
 		"itemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
 		"quantity": 1,
 		"craftTime": 12,
@@ -993,7 +974,7 @@
 			}
 		]
 	},
-	{
+	{ // Gas Container
 		"itemId": "056e5ff1-f030-40df-946a-b830bf494c92",
 		"quantity": 1,
 		"craftTime": 57,
@@ -1007,16 +988,16 @@
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
 			},
 			{
-				"quantity": 10,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"quantity": 15,
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Battery Container
 		"itemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
 		"quantity": 1,
 		"craftTime": 57,
@@ -1030,16 +1011,16 @@
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
 			},
 			{
-				"quantity": 10,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"quantity": 15,
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Water Container
 		"itemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
 		"quantity": 1,
 		"craftTime": 57,
@@ -1050,7 +1031,7 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			},
 			{
 				"quantity": 5,
@@ -1058,34 +1039,11 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
-		"itemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" // Metal2
-			},
-			{
-				"quantity": 20,
-				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" // Glass
-			},
-			{
-				"quantity": 5,
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" // Circuit Board
-			},
-			{
-				"quantity": 2,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
-			}
-		]
-	},
-	{
+	{ // Water Cannon
 		"itemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
 		"quantity": 1,
 		"craftTime": 87,
@@ -1096,7 +1054,7 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			},
 			{
 				"quantity": 2,
@@ -1104,7 +1062,7 @@
 			}
 		]
 	},
-	{
+	{ // Saw Blade
 		"itemId": "3e10ef67-383a-4b60-aa5b-b1173134e437",
 		"quantity": 1,
 		"craftTime": 87,
@@ -1119,7 +1077,7 @@
 			}
 		]
 	},
-	{
+	{ // Drill
 		"itemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
 		"quantity": 1,
 		"craftTime": 87,
@@ -1134,18 +1092,18 @@
 			}
 		]
 	},
-	{
+	{ // Water Bucket
 		"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
 		"quantity": 1,
 		"craftTime": 17,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal // Scrap Metal
 			}
 		]
 	},
-	{
+	{ // Soil Bag
 		"itemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
 		"quantity": 1,
 		"craftTime": 17,
@@ -1156,79 +1114,41 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b" // Sand
 			},
 			{
 				"quantity": 2,
-				"itemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da"
+				"itemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da" // Carrot
 			}
 		]
 	},
-	{
-		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
-		"quantity": 5,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 10,
-				"itemId": "38e41fb5-dd50-4294-829d-a517f0282fed"
-			},
-			{
-				"quantity": 10,
-				"itemId": "9c82a525-8a8b-4483-9595-505aaa042486"
-			},
-			{
-				"quantity": 10,
-				"itemId": "64051718-a3f1-422b-bda3-277efa0c4545"
-			}
-		]
-	},
-	{
+	{ // 5 Gas
 		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
 		"quantity": 5,
 		"craftTime": 7,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" // Oil
 			}
 		]
 	},
-	{
-		"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af",
-		"quantity": 5,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 10,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" // Scrap Metal
-			},
-			{
-				"quantity": 5,
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
-			},
-			{
-				"quantity": 5,
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
-			}
-		]
-	},
-	{
+	{ // Glue
 		"itemId": "36335664-6e61-4d44-9876-54f9660a8565",
 		"quantity": 1,
 		"craftTime": 2,
 		"ingredientList": [
 			{
 				"quantity": 3,
-				"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f"
+				"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f" // Clam
 			}
 		]
 	},
-	{
+	{ // Water
 		"itemId": "869d4736-289a-4952-96cd-8a40117a2d28",
 		"extras": [
 			{
-				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
+				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a", // Returns Empty Bucket
 				"quantity": 1
 			}
 		],
@@ -1237,15 +1157,15 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "103fc4e6-7e57-465e-a86d-983343415877"
+				"itemId": "103fc4e6-7e57-465e-a86d-983343415877" // Water Bucket
 			}
 		]
 	},
 	{
-		"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25",
+		"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25", // Chemical
 		"extras": [
 			{
-				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
+				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a", // Returns Empty Bucket
 				"quantity": 1
 			}
 		],
@@ -1254,82 +1174,82 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4"
+				"itemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4" // Chemical Bucket
 			}
 		]
 	},
 	{
-		"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7",
+		"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7", // Paint Ammo
 		"quantity": 5,
 		"craftTime": 12,
 		"ingredientList": [
 			{
-				"quantity": 5,
+				"quantity": 10,
 				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
 			}
 		]
 	},
-	{
+	{ // Glowstick
 		"itemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9",
 		"quantity": 4,
 		"craftTime": 17,
 		"ingredientList": [
 			{
 				"quantity": 4,
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" // Chemical
 			},
 			{
 				"quantity": 4,
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510" // Glowpoop
 			}
 		]
 	},
-	{
+	{ // Propane Tank Small
 		"itemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33",
 		"quantity": 1,
 		"craftTime": 17,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
+				"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305" // Gasoline
 			},
 			{
 				"quantity": 6,
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510" // Glowpoop
 			},
 			{
 				"quantity": 5,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // Propane Tank Large
 		"itemId": "24001201-40dd-4950-b99f-17d878a9e07b",
 		"quantity": 1,
 		"craftTime": 17,
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
+				"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305" // Gasoline
 			},
 			{
 				"quantity": 8,
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510" // Glowpoop
 			},
 			{
 				"quantity": 10,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			}
 		]
 	},
-	{
+	{ // Wheel
 		"itemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d",
 		"quantity": 1,
 		"craftTime": 17,
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 5,
@@ -1337,18 +1257,18 @@
 			},
 			{
 				"quantity": 6,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			}
 		]
 	},
-	{
+	{ // Big Wheel
 		"itemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f",
 		"quantity": 1,
 		"craftTime": 27,
 		"ingredientList": [
 			{
 				"quantity": 40,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 10,
@@ -1356,11 +1276,11 @@
 			},
 			{
 				"quantity": 8,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			}
 		]
 	},
-	{
+	{ // Small Pipe Short
 		"itemId": "0dba257b-b907-4919-baaf-2fefe19f4e24",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1371,7 +1291,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Long
 		"itemId": "927d80d8-84ee-44f0-9d8b-cb7a688e0b6c",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1382,7 +1302,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Bend
 		"itemId": "8024db09-9147-4fe3-a747-00bc30ab724b",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1393,7 +1313,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Tee
 		"itemId": "e1273b8a-945b-4080-81eb-cbf79961cccb",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1404,7 +1324,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Corner
 		"itemId": "203fdf06-b311-49fd-933d-a1c6b671a017",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1415,7 +1335,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Four Way
 		"itemId": "387095d6-5aba-45e3-abd0-098710c268f8",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1426,7 +1346,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Four Way Tee
 		"itemId": "5a106512-9284-40de-be68-2c186e903097",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1437,7 +1357,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe Five Way
 		"itemId": "c6ebae46-8e69-4ddd-a3c0-895d887027bd",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1448,7 +1368,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Pipe 6 Way
 		"itemId": "9c6d8dba-1783-4c42-8a02-6af1c5d63ec6",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1459,7 +1379,7 @@
 			}
 		]
 	},
-	{
+	{ // Pipe Short
 		"itemId": "bbc5cc77-443d-4aa7-a175-ebdeb09c2df3",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1470,7 +1390,7 @@
 			}
 		]
 	},
-	{
+	{ // Pipe Long
 		"itemId": "07232236-22eb-4912-8774-ab185f368bb9",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1481,7 +1401,7 @@
 			}
 		]
 	},
-	{
+	{ // Pipe Corner
 		"itemId": "4f1c0036-389b-432e-81de-8261cb9f9d57",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1492,7 +1412,7 @@
 			}
 		]
 	},
-	{
+	{ // Pipe Join
 		"itemId": "9f37d9e9-be8d-49c8-a7ac-e59c67786083",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1503,7 +1423,7 @@
 			}
 		]
 	},
-	{
+	{ // Pipe Valve
 		"itemId": "04782466-eca1-4ed9-8502-036ea269aed9",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1514,7 +1434,7 @@
 			}
 		]
 	},
-	{
+	{ // Short I-Beam
 		"itemId": "87878e83-8170-4796-9401-6baba45ccef2",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1525,7 +1445,7 @@
 			}
 		]
 	},
-	{
+	{ // Long I-Beam
 		"itemId": "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1536,7 +1456,7 @@
 			}
 		]
 	},
-	{
+	{ // I-Beam Corner
 		"itemId": "31768765-5a08-499a-a7e6-7e7613363f75",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1547,7 +1467,7 @@
 			}
 		]
 	},
-	{
+	{ // I-Beam End
 		"itemId": "b9775316-7272-4a66-a8a9-179108d76f18",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1558,7 +1478,7 @@
 			}
 		]
 	},
-	{
+	{ // I-Beam Holder
 		"itemId": "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb",
 		"quantity": 1,
 		"craftTime": 7,
@@ -1569,7 +1489,7 @@
 			}
 		]
 	},
-	{
+	{ // Toilet Paper
 		"itemId": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3",
 		"quantity": 1,
 		"craftTime": 2,
@@ -1580,7 +1500,7 @@
 			}
 		]
 	},
-	{
+	{ // Sink
 		"itemId": "3fa0afca-7715-459e-86fa-2a81cf3027b8",
 		"quantity": 1,
 		"craftTime": 2,
@@ -1591,7 +1511,7 @@
 			}
 		]
 	},
-	{
+	{ // Air Conditioner
 		"itemId": "1325d152-3dd1-41a1-9027-5823c5cb55c4",
 		"quantity": 1,
 		"craftTime": 2,
@@ -1606,7 +1526,7 @@
 			}
 		]
 	},
-	{
+	{ // Mug
 		"itemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63",
 		"quantity": 1,
 		"craftTime": 2,
@@ -1617,7 +1537,7 @@
 			}
 		]
 	},
-	{
+	{ // Mannequin Boot
 		"itemId": "c89f7bc8-5720-474d-989d-761916a411b2",
 		"quantity": 1,
 		"craftTime": 2,
@@ -1628,147 +1548,147 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			},
 			{
 				"quantity": 1,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			}
 		]
 	},
-	{
+	{ // Mannequin Hand
 		"itemId": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7",
 		"quantity": 1,
 		"craftTime": 2,
 		"ingredientList": [
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			},
 			{
 				"quantity": 3,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			}
 		]
 	},
-	{
+	{ // Baby Duck Statuette
 		"itemId": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f",
 		"quantity": 1,
 		"craftTime": 2,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			},
 			{
 				"quantity": 1,
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" // Paint Ammo
 			},
 			{
 				"quantity": 3,
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a" // Beeswax
 			},
 			{
 				"quantity": 1,
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" // Glue
 			}
 		]
 	},
-	{
+	{ // Potted Plant
 		"itemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
+	{ // Small Potted Plant
 		"itemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
+	{ // Potted Vine Plant
 		"itemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			},
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" // Wood1
 			}
 		]
 	},
-	{
+	{ // Big Pot
 		"itemId": "7826f497-426b-42cb-a857-0d784f3ab2f3",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
+	{ // Potted Seed Plant
 		"itemId": "c4609540-bc32-4c3f-83b8-3b6926878012",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" // Stone
 			}
 		]
 	},
-	{
+	{ // Potted Blooming Cactus
 		"itemId": "d1421af8-6f80-4413-8099-2c6b217fb929",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 1,
@@ -1776,14 +1696,14 @@
 			}
 		]
 	},
-	{
+	{ // Potted Cactus
 		"itemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 1,
@@ -1791,14 +1711,14 @@
 			}
 		]
 	},
-	{
+	{ // Potted Blue Flower
 		"itemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced" // Pigment Flower
 			},
 			{
 				"quantity": 1,
@@ -1806,7 +1726,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Rectangular Window
 		"itemId": "57fad8e9-2aff-40c3-9d5c-8f81573b58b9",
 		"quantity": 1,
 		"craftTime": 12,
@@ -1821,7 +1741,7 @@
 			}
 		]
 	},
-	{
+	{ // Square Window
 		"itemId": "53349c8d-14e8-4055-bd79-a1ab56fe876e",
 		"quantity": 1,
 		"craftTime": 12,
@@ -1836,7 +1756,7 @@
 			}
 		]
 	},
-	{
+	{ // Large Rectangular Window
 		"itemId": "763fd838-7ed5-420e-8984-c2ae86da1e5c",
 		"quantity": 1,
 		"craftTime": 12,
@@ -1851,7 +1771,7 @@
 			}
 		]
 	},
-	{
+	{ // Large Windshield
 		"itemId": "7a0e9041-9dd5-4cb1-b804-69ee16c45efe",
 		"quantity": 1,
 		"craftTime": 12,
@@ -1866,7 +1786,7 @@
 			}
 		]
 	},
-	{
+	{ // Small Windshield
 		"itemId": "50007ac9-e97d-4b32-9fd6-de919c8a34a4",
 		"quantity": 1,
 		"craftTime": 12,
@@ -1881,14 +1801,14 @@
 			}
 		]
 	},
-	{
+	{ // Cone
 		"itemId": "1f334b62-8955-4406-8848-91e03228c330",
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" // Metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			},
 			{
 				"quantity": 1,
